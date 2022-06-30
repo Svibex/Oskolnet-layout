@@ -133,7 +133,7 @@ h2
 // блок Start Page
 
 .startPage_wrapper
-  background: $darkBlue
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%)
   height: 536px
 
 .startPage
@@ -141,23 +141,31 @@ h2
   height: 450px
   width: 1180px
   border-radius: 10px
+  left: -46px
+  top: 35px
   position: relative
-  left: -54px
-  top: 36px
-  display: flex
-  justify-content: space-between
   h1
     font-size: 62px
     font-weight: 700
     line-height: 56px
     text-align: left
+    margin-top: 148px
   p
     font-size: 44px
     line-height: 40px
     text-align: left
   button
+    margin-top: 27px
     width: 222px
     height: 47px
+
+.startPage_container
+  display: flex
+  justify-content: space-between
+  position: relative
+
+.startPage_title
+  margin-left: 108px
 
 .startPage_imgs
   position: relative
@@ -166,11 +174,53 @@ h2
 #blue, #green, #glow, #angle
   position: absolute
 
+#angle
+  right: -46px
+  top: 9px
+
+#glow
+  right: 118px
+  top: 9px
+
+#green
+  right: 3px
+  top: -9px
+
+#blue
+  right: 23px
+  top: 38px
+
+#woman
+  right: 92px
+  top: 25px
+
+#wifi
+  right: 357px
+  top: 128px
+
+#tv
+  right: 60px
+  top: 205px
+
+#bag
+  right: 63px
+  top: 305px
+
+#ellipse
+  right: 186px
+  top: 32px
+
 .startPage_nav
+  margin: 0 auto
   width: 73px
   height: 9px
   display: flex
   justify-content: space-between
+  padding-top: 80px
+  position: relative
+  left: 34px
+  top: 3px
+  z-index: 999
 
 .startPage_nav_dropActive
   background: $blue
@@ -182,6 +232,9 @@ h2
 
 .tariff
   width: 1180px
+  h2
+    padding-top: 54px
+    margin-bottom: 23px
 
 .tariff_sectionOne
   height: 602px
