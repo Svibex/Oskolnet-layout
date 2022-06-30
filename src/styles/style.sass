@@ -37,10 +37,6 @@ button
   text-align: center
   border-radius: 60px
 
-//hr
-//  border-color: $dark
-//  height: 1px
-
 .header, .startPage, .tariff, .aboutCompany,
 .news, .doc, .partners, .footer
   width: 1180px
@@ -140,7 +136,7 @@ h2
   background: $white
   height: 450px
   width: 1180px
-  border-radius: 10px
+  border-radius: 15px
   left: -46px
   top: 35px
   position: relative
@@ -243,6 +239,7 @@ h2
   display: flex
   flex-direction: column
   align-items: center
+  border-radius: 15px
   button
     height: 45px
     width: 264px
@@ -250,50 +247,94 @@ h2
 
 .tariff_sectionOne__nav
   margin: 0 auto
-  width: 958px
+  width: 948px
   display: flex
   justify-content: space-between
   font-size: 20px
   line-height: 28px
   text-align: center
+  padding-top: 52px
+  li
+    display: flex
+    align-items: center
+    img
+      padding-left: 10px
+
+.tariff_sectionOne__navActive
+  font-weight: 700
+  border-bottom: 2px solid $blue
 
 .tariff_sectionOne__list
   display: flex
   justify-content: space-between
+  margin-top: 50px
 
 .tariff_sectionOne__list__item
   width: 228px
   height: 323px
+  border-radius: 30px
+  padding-left: 19px
+  display: flex
+  flex-direction: column
+  justify-content: end
+  align-items: start
   p
     font-size: 18px
     line-height: 25px
     text-align: left
+    margin: 10px 0
   button
     height: 35px
     width: 191px
+    margin-bottom: 37px
 
+.tariff_sectionOne__list__item-line
+  background: $dark
+  height: 1px
+  width: 191px
+  margin-top: 3px
 
 h3, strong
   font-size: 30px
   font-weight: 700
   line-height: 44px
   text-align: left
+  margin: 13px 0 4px 0
 
 h4
   font-size: 24px
   font-weight: 700
   line-height: 35px
   text-align: left
+  display: flex
+  align-items: center
+  img
+    margin-right: 16px
 
-//.tariff_sectionTwo
+.tariff_sectionOne__list__itemActive
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%)
+  box-shadow: 0 5px 25px 0 #00000073
+  h3, h4, p, strong
+    color: $white
+  div
+    background: $blue
+
+.tariff_sectionOne_drops
+  margin-top: 35px
+  margin-bottom: 38px
+
+// tariff_sectionTwo
 
 
 .tariff_sectionTwo__wrapper
-  margin: 0 auto
+  margin: 0 auto 20px auto
   width: 1180px
   height: 200px
-  background: $darkBlue
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%)
   border-radius: 15px
+
+.tariff_sectionTwo
+  margin-top: 47px
 
 h5
   color: $white
