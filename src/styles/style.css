@@ -1,0 +1,29 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/Circe-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/Circe-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  font-family: "Circe", sans-serif;
+}
+
+button {
+  background-color: #6984F0;
+  color: #FFFFFF;
+}
+
+hr {
+  border-color: rgba(38, 48, 87, 0.2);
+  height: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
