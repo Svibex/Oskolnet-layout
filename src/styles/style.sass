@@ -63,9 +63,16 @@ h2
   height: 9px
   background: $gray
   border-radius: 5px
+  color: $darkBlue
 
 .dropActive
   background: $blue
+
+input
+  font-size: 18px
+  line-height: 25px
+  text-align: left
+  padding-left: 25px
 
 // блок header
 
@@ -226,6 +233,9 @@ h2
 
 // блок tariff
 
+.tariff_wrapper
+  padding-bottom: 32px
+
 .tariff
   width: 1180px
   h2
@@ -325,6 +335,8 @@ h4
 
 // tariff_sectionTwo
 
+.tariff_sectionTwo
+  margin-top: 47px
 
 .tariff_sectionTwo__wrapper
   margin: 0 auto 20px auto
@@ -332,9 +344,63 @@ h4
   height: 200px
   background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%)
   border-radius: 15px
+  display: flex
+  flex-direction: column
+  align-items: normal
+  justify-content: space-between
+  padding-right: 59px
+  padding-left: 78px
+  input
+    height: 46px
+    border-radius: 5px
+  button
+    height: 46px
+    width: 223px
+    border-radius: 60px
 
-.tariff_sectionTwo
-  margin-top: 47px
+.tariff_sectionTwo__wrapper_container
+  display: flex
+  justify-content: space-between
+  input
+    width: 390px
+    margin-top: -6px
+
+#tariff_sectionTwo__wrapper1
+  padding: 30px 59px 29px 78px
+
+#tariff_sectionTwo__wrapper2
+  padding: 37px 59px 45px 78px
+
+.tariff_sectionTwo__wrapper_map
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.tariff_sectionTwo__wrapper_map-input1
+  width: 519px
+
+.tariff_sectionTwo__wrapper_map-input2
+  width: 185px
+
+#tariff_sectionTwo__wrapper3
+  padding: 77px 59px 0 78px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.tariff_sectionTwo__wrapper-form
+  display: flex
+  width: 473px
+  justify-content: space-between
+  p
+    color: $white
+
+#checkbox
+  width: 12px
+  height: 12px
+  border: 1px solid $white
+  background: $darkBlue
+  border-radius: 2px
 
 h5
   color: $white
