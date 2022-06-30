@@ -37,37 +37,38 @@
                     <button>Выбрать тариф</button>
                 </div>
                 <div class="startPage_imgs">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img id="angle" src="src/images/main/angle.png" alt="">
+                    <img id="glow" src="src/images/main/glow.png" alt="">
+                    <img id="green" src="src/images/main/green.png" alt="">
+                    <img id="blue" src="src/images/main/blue.png" alt="">
+                    <img id="woman" src="src/images/main/woman.png" alt="">
+                    <img id="wifi" src="src/images/main/wifi.png" alt="">
+                    <img id="tv" src="src/images/main/tv.png" alt="">
+                    <img id="bag" src="src/images/main/bag.png" alt="">
+                    <img id="ellipse" src="src/images/main/ellipse.png" alt="">
                 </div>
                 <div class="startPage_nav">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="drop startPage_nav_dropActive"></div>
+                    <div class="drop"></div>
+                    <div class="drop"></div>
                 </div>
             </div>
         </section>
         <section class="tariff_wrapper">
             <div class="tariff">
                 <h2>ТАРИФЫ ДЛЯ ДОМА</h2>
-                <div>
-                    <ul>
+                <div class="tariff_sectionOne">
+                    <ul class="tariff_sectionOne__nav">
                         <li>Интернет</li>
-                        <li>Интернет + Кабельное ТВ
+                        <li>
+                            Интернет + Кабельное ТВ
                             <img src="src/images/icons/hit-blue.png" alt="">
                         </li>
                         <li>Интернет + Smart TV</li>
                         <li>Интернет + Телефония</li>
                     </ul>
-                    <div>
-                        <div>
+                    <div class="tariff_sectionOne__list">
+                        <div class="tariff_sectionOne__list__item">
                             <h3>Medium</h3>
                             <h4>
                                 <img src="src/images/icons/speed.png" alt="">
@@ -77,10 +78,10 @@
                                 <img src="src/images/icons/popup-dark.png" alt="">
                             </p>
                             <div></div>
-                            <p>300 ₽/мес</p>
+                            <p><strong>300</strong>₽/мес</p>
                             <button>Подключить</button>
                         </div>
-                        <div>
+                        <div class="tariff_sectionOne__list__item">
                             <h3>Total</h3>
                             <h4>
                                 <img src="src/images/icons/speed.png" alt="">
@@ -90,10 +91,11 @@
                                 <img src="src/images/icons/popup-dark.png" alt="">
                             </p>
                             <div></div>
-                            <p>450 ₽/мес</p>
+                            <p><strong>450</strong>₽/мес</p>
                             <button>Подключить</button>
                         </div>
-                        <div>
+                        <div class="tariff_sectionOne__list__item">
+                            <img src="src/images/icons/hit-white.png" alt="">
                             <h3>Energy</h3>
                             <h4>
                                 <img src="src/images/icons/speed.png" alt="">
@@ -103,10 +105,10 @@
                                 <img src="src/images/icons/popup-dark.png" alt="">
                             </p>
                             <div></div>
-                            <p>600 ₽/мес</p>
+                            <p><strong>600</strong>₽/мес</p>
                             <button>Подключить</button>
                         </div>
-                        <div>
+                        <div class="tariff_sectionOne__list__item">
                             <h3>Ultra</h3>
                             <h4>
                                 <img src="src/images/icons/speed.png" alt="">
@@ -116,10 +118,10 @@
                                 <img src="src/images/icons/popup-dark.png" alt="">
                             </p>
                             <div></div>
-                            <p>900 ₽/мес</p>
+                            <p><strong>900</strong>₽/мес</p>
                             <button>Подключить</button>
                         </div>
-                        <div>
+                        <div class="tariff_sectionOne__list__item">
                             <h3>Rush</h3>
                             <h4>
                                 <img src="src/images/icons/speed.png" alt="">
@@ -129,49 +131,51 @@
                                 <img src="src/images/icons/popup-dark.png" alt="">
                             </p>
                             <div></div>
-                            <p>1100 ₽/мес</p>
+                            <p><strong>1100</strong>₽/мес</p>
                             <button>Подключить</button>
                         </div>
                     </div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="drops">
+                        <li class="drop dropActive"></li>
+                        <li class="drop"></li>
+                        <li class="drop"></li>
                     </ul>
                     <button>Все тарифы</button>
                 </div>
-                <div>
-                    <h5>Трудно выбрать? Мы поможем!</h5>
-                    <label>
-                        <input>
-                    </label>
-                    <label>
-                        <input>
-                    </label>
-                    <button>Жду звонка</button>
-                    <div>
+                <div class="tariff_sectionTwo">
+                    <div class="tariff_sectionTwo__wrapper">
+                        <h5>Трудно выбрать? Мы поможем!</h5>
                         <label>
-                            <input type="checkbox">
+                            <input>
                         </label>
-                        <p>Нажимая на кнопку, я даю согласие на обработку персональных данных</p>
+                        <label>
+                            <input>
+                        </label>
+                        <button>Жду звонка</button>
+                        <div>
+                            <label>
+                                <input type="checkbox">
+                            </label>
+                            <p>Нажимая на кнопку, я даю согласие на обработку персональных данных</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h5>Проверить возможность подключения по вашему адресу</h5>
-                    <div>
-                        <img src="src/images/icons/map.png" alt="">
-                        <label>
-                            <input placeholder="Улица">
-                        </label>
-                        <label>
-                            <input placeholder="Дом">
-                        </label>
+                    <div class="tariff_sectionTwo__wrapper">
+                        <h5>Проверить возможность подключения по вашему адресу</h5>
+                        <div>
+                            <img src="src/images/icons/map.png" alt="">
+                            <label>
+                                <input placeholder="Улица">
+                            </label>
+                            <label>
+                                <input placeholder="Дом">
+                            </label>
+                            <button>Проверить</button>
+                        </div>
+                    </div>
+                    <div class="tariff_sectionTwo__wrapper">
+                        <h5>Проверить скорость интернета</h5>
                         <button>Проверить</button>
                     </div>
-                </div>
-                <div>
-                    <h5>Проверить скорость интернета</h5>
-                    <button>Проверить</button>
                 </div>
             </div>
         </section>

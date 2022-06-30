@@ -38,6 +38,32 @@ button {
   background: #E5E5E5;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: center;
+}
+
+.drops {
+  display: flex;
+  justify-content: space-between;
+  width: 54px;
+  height: 9px;
+  margin: 0 auto;
+}
+
+.drop {
+  width: 9px;
+  height: 9px;
+  background: #E5E5E5;
+  border-radius: 5px;
+}
+
+.dropActive {
+  background: #6984F0;
+}
+
 .header {
   height: 145.3184814453px;
   display: flex;
@@ -108,8 +134,6 @@ button {
 .startPage_wrapper {
   background: #263057;
   height: 536px;
-  display: flex;
-  align-items: center;
 }
 
 .startPage {
@@ -117,6 +141,11 @@ button {
   height: 450px;
   width: 1180px;
   border-radius: 10px;
+  position: relative;
+  left: -54px;
+  top: 36px;
+  display: flex;
+  justify-content: space-between;
 }
 .startPage h1 {
   font-size: 62px;
@@ -132,6 +161,106 @@ button {
 .startPage button {
   width: 222px;
   height: 47px;
+}
+
+.startPage_imgs {
+  position: relative;
+}
+
+#ellipse, #bag, #tv, #wifi, #woman,
+#blue, #green, #glow, #angle {
+  position: absolute;
+}
+
+.startPage_nav {
+  width: 73px;
+  height: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.startPage_nav_dropActive {
+  background: #6984F0;
+  width: 28px;
+  height: 9px;
+  border-radius: 5px;
+}
+
+.tariff {
+  width: 1180px;
+}
+
+.tariff_sectionOne {
+  height: 602px;
+  width: 1180px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tariff_sectionOne button {
+  height: 45px;
+  width: 264px;
+  border-radius: 60px;
+}
+
+.tariff_sectionOne__nav {
+  margin: 0 auto;
+  width: 958px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.tariff_sectionOne__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tariff_sectionOne__list__item {
+  width: 228px;
+  height: 323px;
+}
+.tariff_sectionOne__list__item p {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+.tariff_sectionOne__list__item button {
+  height: 35px;
+  width: 191px;
+}
+
+h3, strong {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: left;
+}
+
+.tariff_sectionTwo__wrapper {
+  margin: 0 auto;
+  width: 1180px;
+  height: 200px;
+  background: #263057;
+  border-radius: 15px;
+}
+
+h5 {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  text-align: left;
 }
 
 footer {

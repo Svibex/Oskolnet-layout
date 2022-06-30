@@ -37,7 +37,6 @@ button
   text-align: center
   border-radius: 60px
 
-
 //hr
 //  border-color: $dark
 //  height: 1px
@@ -49,6 +48,28 @@ button
 
 .tariff_wrapper, .news_wrapper, .partners_wrapper
   background: $gray
+
+h2
+  font-size: 48px
+  font-weight: 700
+  line-height: 62px
+  text-align: center
+
+.drops
+  display: flex
+  justify-content: space-between
+  width: 54px
+  height: 9px
+  margin: 0 auto
+
+.drop
+  width: 9px
+  height: 9px
+  background: $gray
+  border-radius: 5px
+
+.dropActive
+  background: $blue
 
 // блок header
 
@@ -109,17 +130,22 @@ button
   width: 148px
   height: 34px
 
+// блок Start Page
+
 .startPage_wrapper
   background: $darkBlue
   height: 536px
-  display: flex
-  align-items: center
 
 .startPage
   background: $white
   height: 450px
   width: 1180px
   border-radius: 10px
+  position: relative
+  left: -54px
+  top: 36px
+  display: flex
+  justify-content: space-between
   h1
     font-size: 62px
     font-weight: 700
@@ -132,6 +158,105 @@ button
   button
     width: 222px
     height: 47px
+
+.startPage_imgs
+  position: relative
+
+#ellipse, #bag, #tv, #wifi, #woman,
+#blue, #green, #glow, #angle
+  position: absolute
+
+.startPage_nav
+  width: 73px
+  height: 9px
+  display: flex
+  justify-content: space-between
+
+.startPage_nav_dropActive
+  background: $blue
+  width: 28px
+  height: 9px
+  border-radius: 5px
+
+// блок tariff
+
+.tariff
+  width: 1180px
+
+.tariff_sectionOne
+  height: 602px
+  width: 1180px
+  background: $white
+  display: flex
+  flex-direction: column
+  align-items: center
+  button
+    height: 45px
+    width: 264px
+    border-radius: 60px
+
+.tariff_sectionOne__nav
+  margin: 0 auto
+  width: 958px
+  display: flex
+  justify-content: space-between
+  font-size: 20px
+  line-height: 28px
+  text-align: center
+
+.tariff_sectionOne__list
+  display: flex
+  justify-content: space-between
+
+.tariff_sectionOne__list__item
+  width: 228px
+  height: 323px
+  p
+    font-size: 18px
+    line-height: 25px
+    text-align: left
+  button
+    height: 35px
+    width: 191px
+
+
+h3, strong
+  font-size: 30px
+  font-weight: 700
+  line-height: 44px
+  text-align: left
+
+h4
+  font-size: 24px
+  font-weight: 700
+  line-height: 35px
+  text-align: left
+
+//.tariff_sectionTwo
+
+
+.tariff_sectionTwo__wrapper
+  margin: 0 auto
+  width: 1180px
+  height: 200px
+  background: $darkBlue
+  border-radius: 15px
+
+h5
+  color: $white
+  font-size: 38px
+  font-weight: 700
+  line-height: 49px
+  text-align: left
+
+
+
+
+
+
+
+
+
 
 
 
