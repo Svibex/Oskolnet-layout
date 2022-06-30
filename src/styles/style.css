@@ -14,16 +14,139 @@
 }
 * {
   font-family: "Circe", sans-serif;
+  font-weight: 400;
+  color: #263057;
 }
 
 button {
   background-color: #6984F0;
   color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 60px;
 }
 
-hr {
-  border-color: rgba(38, 48, 87, 0.2);
-  height: 1px;
+.header, .startPage, .tariff, .aboutCompany,
+.news, .doc, .partners, .footer {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.tariff_wrapper, .news_wrapper, .partners_wrapper {
+  background: #E5E5E5;
+}
+
+.header {
+  height: 145.3184814453px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.header_nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 427px;
+}
+
+.header_logo {
+  height: 95.3184814453px;
+  width: 157.9259338379px;
+}
+
+.header_nav__list-item {
+  font-size: 18px;
+  line-height: 26.53px;
+}
+
+.header_inf {
+  display: flex;
+  justify-content: space-between;
+  width: 172px;
+}
+
+.header_inf__img {
+  width: 29px;
+  height: 29px;
+}
+
+.header_inf__phone {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.header_inf__text {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.28em;
+  text-align: left;
+  color: gray;
+}
+
+.header_buttons-button1 {
+  font-size: 15px;
+  line-height: 22.11px;
+  border-radius: 30px;
+  height: 34px;
+  width: 171.6667480469px;
+  border: 1px solid #6984F0;
+}
+
+.header_buttons-button2 {
+  font-size: 15px;
+  line-height: 22.11px;
+  border-radius: 30px;
+  background-color: #263057;
+  border: 1px solid #263057;
+  width: 148px;
+  height: 34px;
+}
+
+.startPage_wrapper {
+  background: #263057;
+  height: 536px;
+  display: flex;
+  align-items: center;
+}
+
+.startPage {
+  background: #FFFFFF;
+  height: 450px;
+  width: 1180px;
+  border-radius: 10px;
+}
+.startPage h1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+}
+.startPage p {
+  font-size: 44px;
+  line-height: 40px;
+  text-align: left;
+}
+.startPage button {
+  width: 222px;
+  height: 47px;
+}
+
+footer {
+  background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+}
+
+@media (max-width: 360px) {
+  .header, .startPage, .tariff, .aboutCompany,
+.news, .doc, .partners, .footer {
+    width: 320px;
+  }
+  button {
+    height: 45px;
+    width: 320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
