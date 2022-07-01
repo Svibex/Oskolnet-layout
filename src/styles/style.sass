@@ -415,12 +415,15 @@ h4
   p
     color: $white
 
-#checkbox
+#checkbox, #checkboxMob
   width: 12px
   height: 12px
   border: 1px solid $white
   background: $darkBlue
   border-radius: 2px
+
+.tariff_sectionTwo__wrapper-form-mob
+  display: none
 
 h5
   color: $white
@@ -906,12 +909,43 @@ footer
     margin: 0 auto
     align-items: center
 
+  .tariff_sectionTwo
+    margin-top: 39px
+
+  #tariff_sectionTwo__wrapper1
+    padding: 0
+    height: 312px
+    h5
+      margin-top: 27px
+    input
+      margin-left: 20px
+      padding-left: 8px
+      margin-bottom: 15px
+    button
+      margin-bottom: 23px
+      margin-top: 11px
+
+  #checkboxMob
+    padding-left: 9px
+
   .tariff_sectionTwo__wrapper_container
     input
       height: 46px
       width: 280px
       margin: 0
       padding: 0
+
+  #tariff_sectionTwo__wrapper-form-desk
+    display: none
+
+  #tariff_sectionTwo__wrapper-form-mob
+    display: flex
+    flex-direction: row
+    width: 280px
+    height: 40px
+    font-size: 14px
+    line-height: 20px
+    text-align: left
 
   .tariff_sectionTwo__wrapper_map-input1,
   .tariff_sectionTwo__wrapper_map-input2
@@ -937,6 +971,7 @@ footer
   #tariff_sectionTwo__wrapper3
     display: flex
     flex-direction: column
+    align-items: center
     width: 320px
     button
       width: 280px

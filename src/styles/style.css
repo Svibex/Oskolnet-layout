@@ -474,12 +474,16 @@ h4 img {
   color: #FFFFFF;
 }
 
-#checkbox {
+#checkbox, #checkboxMob {
   width: 12px;
   height: 12px;
   border: 1px solid #FFFFFF;
   background: #263057;
   border-radius: 2px;
+}
+
+.tariff_sectionTwo__wrapper-form-mob {
+  display: none;
 }
 
 h5 {
@@ -1011,11 +1015,45 @@ footer {
     margin: 0 auto;
     align-items: center;
   }
+  .tariff_sectionTwo {
+    margin-top: 39px;
+  }
+  #tariff_sectionTwo__wrapper1 {
+    padding: 0;
+    height: 312px;
+  }
+  #tariff_sectionTwo__wrapper1 h5 {
+    margin-top: 27px;
+  }
+  #tariff_sectionTwo__wrapper1 input {
+    margin-left: 20px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+  }
+  #tariff_sectionTwo__wrapper1 button {
+    margin-bottom: 23px;
+    margin-top: 11px;
+  }
+  #checkboxMob {
+    padding-left: 9px;
+  }
   .tariff_sectionTwo__wrapper_container input {
     height: 46px;
     width: 280px;
     margin: 0;
     padding: 0;
+  }
+  #tariff_sectionTwo__wrapper-form-desk {
+    display: none;
+  }
+  #tariff_sectionTwo__wrapper-form-mob {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
   }
   .tariff_sectionTwo__wrapper_map-input1,
 .tariff_sectionTwo__wrapper_map-input2 {
@@ -1041,6 +1079,7 @@ footer {
 #tariff_sectionTwo__wrapper3 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 320px;
   }
   .tariff_sectionTwo__wrapper_container button,
