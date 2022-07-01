@@ -1267,9 +1267,28 @@ footer {
     width: 320px;
     margin: 0 0 20px;
   }
+  .partners_wrapper {
+    padding-bottom: 40px;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .partners h2 {
     padding-top: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+  }
+  .partners_container {
+    width: 320px;
+    margin-bottom: 22px;
+  }
+  .partners_container-arrow {
+    height: 28px;
+    width: 28px;
+  }
+  .partners_container_companies {
+    width: 247px;
   }
   #company2, #company3, #company4 {
     display: none;
