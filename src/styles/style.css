@@ -591,6 +591,9 @@ h5 {
   text-align: left;
   color: #6984F0;
 }
+.news_container__card .news_drops {
+  display: none;
+}
 
 .news_container__card-date {
   font-size: 18px;
@@ -1176,11 +1179,18 @@ footer {
   .aboutCompany_container-text_wrapper {
     margin: 15px 0 -38px 0;
   }
+  .news_wrapper {
+    height: 589px;
+  }
   .news button {
     width: 320px;
   }
+  .news h2 {
+    margin-top: 39px;
+    margin-bottom: 15px;
+  }
   .news_container {
-    width: 320px;
+    width: 360px;
     overflow: hidden;
   }
   .news_container__card {
@@ -1192,6 +1202,27 @@ footer {
     height: 149px;
     width: 278px;
     border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  .news_container__card a p {
+    margin-left: 36px;
+    width: 108px;
+  }
+  .news_container__card-date {
+    margin-left: 36px;
+    margin-bottom: 17px;
+  }
+  .news_container__card-text {
+    margin-left: 39px;
+  }
+  #news_card-network {
+    margin: 0 13px 0 20px;
+  }
+  .news_drops {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -20px;
   }
   .doc {
     width: 360px;
