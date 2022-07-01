@@ -114,6 +114,8 @@ input {
 .header_inf__phone {
   font-weight: 700;
   font-size: 17px;
+  padding-top: 4px;
+  margin-left: 3px;
 }
 
 .header_inf__text {
@@ -122,6 +124,8 @@ input {
   letter-spacing: 0.28em;
   text-align: left;
   color: #aeb1c0;
+  margin-top: -1px;
+  padding-left: 2px;
 }
 
 .header_buttons-button1 {
@@ -309,6 +313,10 @@ input {
   border-bottom: 2px solid #6984F0;
 }
 
+.tariff_sectionOne__nav-hit {
+  margin-left: 28px;
+}
+
 .tariff_sectionOne__list {
   display: flex;
   justify-content: space-between;
@@ -362,6 +370,10 @@ h4 {
 }
 h4 img {
   margin-right: 16px;
+}
+
+#total {
+  padding-left: 10px;
 }
 
 .tariff_sectionOne__list__itemActive {
@@ -629,6 +641,7 @@ h5 {
 
 #doc_pair2 {
   width: 343px;
+  margin-left: -28px;
 }
 
 #doc_pair3 {
@@ -697,7 +710,7 @@ footer {
 }
 
 .footer_container_blocks-buttons {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .footer_container_blocks-buttons1 {
@@ -727,7 +740,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 19px;
+  margin-bottom: 12px;
+  margin-left: 13px;
 }
 
 .footer_container__blocks-phoneNumber {
@@ -736,6 +750,7 @@ footer {
   line-height: 25px;
   text-align: left;
   color: #FFFFFF;
+  margin-top: 1px;
 }
 
 .footer_container__blocks-phoneInf {
@@ -746,10 +761,11 @@ footer {
 }
 
 .footer_container__blocks-imgs {
-  width: 141px;
+  width: 148px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 90px;
+  padding-left: 10px;
 }
 
 .footer_cookies {
@@ -762,6 +778,7 @@ footer {
 
 .footer_cookies-item1 {
   width: 161px;
+  margin-top: 4px;
 }
 
 .footer_cookies-item2 {
