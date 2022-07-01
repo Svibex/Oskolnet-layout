@@ -619,6 +619,9 @@ footer
   justify-content: space-between
   padding-top: 101px
 
+.footer_container_mobLIst
+  display: none
+
 .footer_container-list
   li
     color: $white
@@ -700,10 +703,13 @@ footer
   margin-right: 75px
   margin-left: -105px
 
+.footer_cookies-item4
+  display: none
+
 @media (max-width: 360px)
-  .header, .startPage, .tariff, .aboutCompany,
+  header, .startPage, .tariff, .aboutCompany,
   .news, .doc, .partners, .footer
-    width: 320px
+    width: 360px
 
   button
     height: 45px
@@ -717,16 +723,37 @@ footer
 
   .header
     height: 76px
+    width: 320px
     button
       width: 34px
       height: 34px
+      margin-top: 9px
 
   .header_logo
     height: 50.85939407348633px
     width: 85.0000991821289px
+    margin-top: -4px
 
   .header_nav__list, .header_buttons-button1, .header_buttons-button2
     display: none
+
+  .header_inf__img
+    margin: 12px 0 0 6px
+
+  .header_inf__block
+    margin: 7px 16px 0 0
+
+  .header_inf__phone
+    font-size: 14px
+    font-weight: 700
+    line-height: 21px
+
+  .header_inf__text
+    font-size: 12px
+    line-height: 17px
+    letter-spacing: 0.28em
+    text-align: left
+    margin-top: -5px
 
   .header_buttons-burger
     display: block
@@ -844,6 +871,12 @@ footer
   #total, #ultra, #rush
     display: none
 
+  .tariff_sectionOne__list__itemActive
+    margin-left: 140px
+
+  .tariff
+    margin: 0
+
   .tariff_sectionOne__list
     flex-direction: row-reverse
 
@@ -892,6 +925,7 @@ footer
 
   .aboutCompany_container
     flex-direction: column
+    width: 360px
     img
       width: 320px
       height: 187px
@@ -956,13 +990,46 @@ footer
   #company2, #company3, #company4
     display: none
 
+  .footer_container, footer
+    height: 679px
+    width: 360px
+    padding: 0
 
+  .footer_container-list
+    display: none
 
+  .footer_container__blocks
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 0
 
+  .footer_container_mobLIst
+    display: block
+    li
+      color: $white
+      font-size: 14px
+      line-height: 21px
+      text-align: center
 
+  .footer_container_blocks-buttons
+    display: flex
+    flex-direction: column
+    button
+      width: 320px
+      margin: 0
 
+  .footer_cookies
+    margin-top: -200px
+    flex-direction: column-reverse
+    width: 320px
 
+  .footer_cookies-item1, .footer_cookies-item2,
+  .footer_cookies-item4
+    width: 320px
 
+  .footer_cookies-item3
+    display: none
 
-
-
+  .footer_cookies-item4
+    display: block
