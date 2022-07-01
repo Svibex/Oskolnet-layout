@@ -956,11 +956,14 @@ footer {
   .tariff_sectionOne {
     width: 360px;
     overflow: hidden;
+    height: 547px;
   }
   .tariff_sectionOne__nav {
-    height: 20px;
+    height: 65px;
     width: 302px;
     flex-wrap: wrap;
+    margin-top: -33px;
+    align-items: normal;
   }
   .tariff_sectionOne__nav li {
     font-size: 14px;
@@ -968,17 +971,37 @@ footer {
     text-align: center;
   }
   .tariff_sectionOne__nav .tariff_sectionOne__nav-hit img {
-    width: 39px;
-    height: 15px;
+    width: 40px;
+    height: 18px;
+    margin-left: 10px;
+    padding: 0;
+  }
+  .tariff_sectionOne__navActive,
+.tariff_sectionOne__nav-hit {
+    margin-bottom: 14px;
   }
   #total, #ultra, #rush {
     display: none;
   }
+  .tariff_sectionOne__list {
+    margin-top: 63px;
+  }
   .tariff_sectionOne__list__itemActive {
-    margin-left: 140px;
+    margin-left: 155px;
+    margin-right: 19px;
+  }
+  #medium {
+    border: 1px solid #263057;
   }
   .tariff {
     margin: 0;
+  }
+  .tariff h2 {
+    padding-top: 39px;
+    margin-bottom: 11px;
+  }
+  #tariff_button {
+    width: 320px;
   }
   .tariff_sectionOne__list {
     flex-direction: row-reverse;
@@ -1007,6 +1030,10 @@ footer {
     line-height: 26px;
     text-align: left;
     width: 280px;
+  }
+  .tariff_sectionOne_drops {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .tariff_sectionTwo__wrapper_container,
 .tariff_sectionTwo__wrapper-form,
